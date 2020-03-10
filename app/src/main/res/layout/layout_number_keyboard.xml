@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:background="@color/text_color_gray_d4" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_52"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/key_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/view_keyboard_selector"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_24" />
+
+        <View
+            android:layout_width="@dimen/dp_1"
+            android:layout_height="match_parent"
+            android:background="@color/text_color_gray_d4" />
+
+        <TextView
+            android:id="@+id/key_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/view_keyboard_selector"
+            android:gravity="center"
+            android:text="2"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_24" />
+
+        <View
+            android:layout_width="@dimen/dp_1"
+            android:layout_height="match_parent"
+            android:background="@color/text_color_gray_d4" />
+
+        <TextView
+            android:id="@+id/key_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/view_keyboard_selector"
+            android:gravity="center"
+            android:text="3"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_24" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:background="@color/text_color_gray_d4" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_52"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/key_4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/view_keyboard_selector"
+            android:gravity="center"
+            android:text="4"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_24" />
+
+        <View
+            android:layout_width="@dimen/dp_1"
+            android:layout_height="match_parent"
+            android:background="@color/text_color_gray_d4" />
+
+        <TextView
+            android:id="@+id/key_5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/view_keyboard_selector"
+            android:gravity="center"
+            android:text="5"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_24" />
+
+        <View
+            android:layout_width="@dimen/dp_1"
+            android:layout_height="match_parent"
+            android:background="@color/text_color_gray_d4" />
+
+        <TextView
+            android:id="@+id/key_6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/view_keyboard_selector"
+            android:gravity="center"
+            android:text="6"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_24" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:background="@color/text_color_gray_d4" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_52"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/key_7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/view_keyboard_selector"
+            android:gravity="center"
+            android:text="7"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_24" />
+
+        <View
+            android:layout_width="@dimen/dp_1"
+            android:layout_height="match_parent"
+            android:background="@color/text_color_gray_d4" />
+
+        <TextView
+            android:id="@+id/key_8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/view_keyboard_selector"
+            android:gravity="center"
+            android:text="8"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_24" />
+
+        <View
+            android:layout_width="@dimen/dp_1"
+            android:layout_height="match_parent"
+            android:background="@color/text_color_gray_d4" />
+
+        <TextView
+            android:id="@+id/key_9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/view_keyboard_selector"
+            android:gravity="center"
+            android:text="9"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_24" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:background="@color/text_color_gray_d4" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_52"
+        android:layout_gravity="center"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#EFEFEF" />
+
+        <View
+            android:layout_width="@dimen/dp_1"
+            android:layout_height="match_parent"
+            android:background="@color/text_color_gray_d4" />
+
+        <TextView
+            android:id="@+id/key_0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/view_keyboard_selector"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_24" />
+
+        <View
+            android:layout_width="@dimen/dp_1"
+            android:layout_height="match_parent"
+            android:background="@color/text_color_gray_d4" />
+
+        <ImageView
+            android:id="@+id/key_delete"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/view_keyboard_selector"
+            android:gravity="center"
+            android:scaleType="center"
+            android:src="@mipmap/ic_common_back"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_24" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:background="@color/text_color_gray_d4" />
+
+</LinearLayout>
